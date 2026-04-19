@@ -10,25 +10,25 @@
 *(Hazır olduğunda aşağıdaki yolları gerçek dosyalarınla değiştir)*
 
 <div align="center">
-  <img src="docs/screenshots/login.png" width="200" alt="giriş"/>
+  <img src="docs/screenshots/login.jpeg" width="200" alt="giriş"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/home1.png" width="200" alt="Ana Sayfa"/>
+  <img src="docs/screenshots/home1.jpeg" width="200" alt="Ana Sayfa"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/home2.png" width="200" alt="Ana Sayfa"/>
+  <img src="docs/screenshots/home2.jpeg" width="200" alt="Ana Sayfa"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/home3.png" width="200" alt="Ana Sayfa"/>
+  <img src="docs/screenshots/home3.jpeg" width="200" alt="Ana Sayfa"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/explore.png" width="200" alt="Keşfet"/>
+  <img src="docs/screenshots/explore.jpeg" width="200" alt="Keşfet"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/detail1.png" width="200" alt="Ülke Detay"/>
+  <img src="docs/screenshots/detail1.jpeg" width="200" alt="Ülke Detay"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/detail2.png" width="200" alt="Ülke Detay"/>
+  <img src="docs/screenshots/detail2.jpeg" width="200" alt="Ülke Detay"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/progress1.png" width="200" alt="ilerleme"/>
+  <img src="docs/screenshots/progress1.jpeg" width="200" alt="ilerleme"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/quiz1.png" width="200" alt="Quiz"/>
+  <img src="docs/screenshots/quiz1.jpeg" width="200" alt="Quiz"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/quiz3.png" width="200" alt="Quiz"/>
+  <img src="docs/screenshots/quiz3.jpeg" width="200" alt="Quiz"/>
 </div>
 
 ---
