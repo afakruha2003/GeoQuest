@@ -1,30 +1,29 @@
 # GeoQuest 🌍
 
-> **Dünyayı Keşfet, Kendini Test Et.**
-> REST Countries API ile dünya ülkelerini keşfeden, coğrafi bilgiler öğreten ve interaktif quizlerle bilgini test eden React Native mobil uygulaması.
+> **Explore the World, Test Yourself.**
+> A React Native mobile application that lets you explore world countries using the REST Countries API, learn geographic information, and test your knowledge with interactive quizzes.
 
 ---
 
-## 📸 Ekran Görüntüleri
+## 📸 Screenshots
 
-*(Hazır olduğunda aşağıdaki yolları gerçek dosyalarınla değiştir)*
 
 <div align="center">
-  <img src="docs/screenshots/login.jpeg" width="200" alt="giriş"/>
+  <img src="docs/screenshots/login.jpeg" width="200" alt="Login"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/home1.jpeg" width="200" alt="Ana Sayfa"/>
+  <img src="docs/screenshots/home1.jpeg" width="200" alt="Home Screen"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/home2.jpeg" width="200" alt="Ana Sayfa"/>
+  <img src="docs/screenshots/home2.jpeg" width="200" alt="Home Screen"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/home3.jpeg" width="200" alt="Ana Sayfa"/>
+  <img src="docs/screenshots/home3.jpeg" width="200" alt="Home Screen"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/explore.jpeg" width="200" alt="Keşfet"/>
+  <img src="docs/screenshots/explore.jpeg" width="200" alt="Explore"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/detail1.jpeg" width="200" alt="Ülke Detay"/>
+  <img src="docs/screenshots/detail1.jpeg" width="200" alt="Country Detail"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/detail2.jpeg" width="200" alt="Ülke Detay"/>
+  <img src="docs/screenshots/detail2.jpeg" width="200" alt="Country Detail"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/progress1.jpeg" width="200" alt="ilerleme"/>
+  <img src="docs/screenshots/progress1.jpeg" width="200" alt="Progress"/>
   &nbsp;&nbsp;
   <img src="docs/screenshots/quiz1.jpeg" width="200" alt="Quiz"/>
   &nbsp;&nbsp;
@@ -33,84 +32,82 @@
 
 ---
 
-## ✨ Özellikler
+## ✨ Features
 
-### 🏠 Ana Sayfa
-- **Günün Ülkesi:** Her gün dönen, hızlı bilgiler içeren öne çıkan ülke kartı.
-- **Günlük Quiz:** Streakini canlı tutmak için 10 soruluk günlük meydan okuma.
-- **Kıta Özeti:** Keşfedilen ülkelerin kıtaya göre hızlı ilerleme takibi.
-- **Son Rozetler:** En son kazandığın başarımlar.
+### 🏠 Home Screen
+- **Country of the Day:** A featured country card that rotates daily with quick facts.
+- **Daily Quiz:** 10-question daily challenge to keep your streak alive.
+- **Continent Summary:** Quick progress tracking of explored countries by continent.
+- **Latest Badges:** Your most recently earned achievements.
 
-### 🔍 Keşfet & Ara
-- **Akıllı Arama:** 300ms debounce ile anlık filtreleme.
-- **Filtre & Sıralama:** Kıtaya göre filtrele, A-Z / Nüfus / Yüzölçüm'e göre sırala.
-- **Grid / Liste Görünüm:** Kompakt grid veya detaylı liste arasında geçiş yap.
-- **Keşif Takibi:** Keşfettiğin ülkelerde yeşil tik göstergesi.
+### 🔍 Explore & Search
+- **Smart Search:** Real-time filtering with 300ms debounce.
+- **Filter & Sort:** Filter by continent, sort by A-Z / Population / Area.
+- **Grid / List View:** Toggle between compact grid or detailed list view.
+- **Exploration Tracking:** Green checkmark indicator on explored countries.
 
-### 🗺️ Ülke Detay
-- Genel Bilgi, Demografi, Dil & Para Birimi, Zaman Dilimi detayları.
-- **Komşu Ülkeler:** Sınır komşularının yatay scroll listesi.
-- **Mini Quiz:** Seçilen ülkeye özel 5 soruluk quiz.
-- **Google Maps:** Ülkeyi doğrudan haritada aç.
+### 🗺️ Country Details
+- General Info, Demographics, Languages & Currencies, Timezone details.
+- **Neighboring Countries:** Horizontal scrolling list of border neighbors.
+- **Mini Quiz:** 5-question quiz specific to the selected country.
+- **Google Maps:** Open country directly on the map.
 
-### 🧠 Quizler
-- **3 Farklı Mod:**
-  1. **Bayrağı Bul** — Bayrağa bakarak ülkeyi tahmin et (15 sn/soru).
-  2. **Başkenti Bul** — Ülke adından başkenti bul (20 sn/soru).
-  3. **Ülkeyi Tahmin Et** — Kıta → Nüfus → Komşu → Para Birimi → Bayrak sırasıyla ipuçları açılır. Az ipucuyla bil, yüksek puan al!
-- **Streak Sistemi:** Üst üste doğru cevaplara bonus puan ve animasyon.
-- **Yanlışları Çalış:** Daha önce yanlış bildiğin ülkelerden soru üret.
-- **Kıtaya Göre Quiz:** Sadece seçilen kıtanın ülkelerinden soru.
+### 🧠 Quizzes
+- **3 Different Modes:**
+  1. **Find the Flag** — Guess the country from its flag (15s/question).
+  2. **Find the Capital** — Find the capital from the country name (20s/question).
+  3. **Guess the Country** — Clues unlock in order: Continent → Population → Neighbors → Currency → Flag. Score higher with fewer clues!
+- **Streak System:** Bonus points and animations for consecutive correct answers.
+- **Practice Mistakes:** Generate questions from countries you previously got wrong.
+- **Continent Quiz:** Questions from only the selected continent.
 
-### 📊 İlerleme & Rozetler
-- Kıta bazlı animasyonlu ilerleme çubukları.
-- 12 kazanılabilir rozet.
-- Quiz geçmişi ve doğruluk istatistikleri içeren profil ekranı.
+### 📊 Progress & Badges
+- Continent-based animated progress bars.
+- 12 collectable badges.
+- Profile screen with quiz history and accuracy statistics.
 
 ---
 
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
 | | |
 |---|---|
 | Framework | React Native (Expo) |
-| Dil | TypeScript |
-| Navigasyon | React Navigation (Bottom Tabs + Stack) |
+| Language | TypeScript |
+| Navigation | React Navigation (Bottom Tabs + Stack) |
 | HTTP | Axios |
 | State | Custom Hooks + AsyncStorage |
 | UI | StyleSheet · expo-linear-gradient · react-native-safe-area-context |
-| Görsel | expo-image |
+| Images | expo-image |
 | API | REST Countries API v3.1 |
 
 ---
 
-## 📂 Proje Yapısı
+## 📂 Project Structure
 
 ```
 src/
-├── api/          # Axios instance ve API servisleri
-├── components/   # Tekrar kullanılabilir UI bileşenleri
-├── config/   
-├── hooks/        # Custom hook'lar (useCountries, useQuiz)
-├── navigation/   # Tab ve stack navigator'lar
-├── screens/      # Uygulama ekranları
-├── store/        # AsyncStorage veri yönetimi
-├── theme/        # Renkler, spacing, typography
-└── types/        # TypeScript arayüzleri
+├── api/          # Axios instance and API services
+├── components/   # Reusable UI components
+├── config/       # Configuration files
+├── hooks/        # Custom hooks (useCountries, useQuiz)
+├── navigation/   # Tab and stack navigators
+├── screens/      # Application screens
+├── store/        # AsyncStorage data management
+├── theme/        # Colors, spacing, typography
+└── types/        # TypeScript interfaces
 ```
 
 ---
 
-## ⚙️ Kurulum
+## ⚙️ Installation
 
 ```bash
-# Repoyu klonla
+# Clone the repository
 git clone https://github.com/afakruha2003/GeoQuest.git
 cd GeoQuest
 
-# Bağımlılıkları yükle
-
-```bash
+# Install dependencies
 npx create-expo-app GeoQuest --template expo-template-blank-typescript
 cd GeoQuest
 
@@ -119,74 +116,70 @@ npx expo install axios @react-native-async-storage/async-storage
 npx expo install expo-linear-gradient expo-image
 npx expo install react-native-safe-area-context react-native-screens react-native-gesture-handler
 
+# Start the development server
 npx expo start
 ```
 
----
-# Geliştirme sunucusunu başlat
-npx expo start
-```
-
-Başladıktan sonra:
-- `a` → Android emülatörde çalıştır
-- `i` → iOS simülatörde çalıştır
-- QR kodu tara → fiziksel cihazda Expo Go ile aç
+After starting:
+- `a` → Run on Android emulator
+- `i` → Run on iOS simulator
+- Scan QR code → Open in Expo Go on physical device
 
 ---
 
 ## 🌐 API
 
-REST Countries API v3.1 kullanılır — ücretsiz, key gerekmez.
+Uses REST Countries API v3.1 — free, no key required.
 
-Performans için yalnızca gerekli alanlar çekilir:
+For performance, only necessary fields are fetched:
 ```
 /all?fields=name,flags,capital,population,area,region,subregion,languages,currencies,borders,cca3,maps
 ```
 
-Veriler uygulama açılışında bir kez çekilir ve bellekte cache'lenir.
+Data is fetched once on app launch and cached in memory.
 
 ---
 
-## 💾 Yerel Depolama (AsyncStorage)
+## 💾 Local Storage (AsyncStorage)
 
-Tüm kullanıcı verisi cihazda yerel olarak saklanır:
+All user data is stored locally on the device:
 
-| Anahtar | Açıklama |
+| Key | Description |
 |---|---|
-| `kesfedilen_ulkeler` | Keşfedilen ülkelerin cca3 kodları |
-| `favori_ulkeler` | Favorilenen ülkeler |
-| `quiz_skorlari` | Quiz denemelerinin detaylı geçmişi |
-| `yanlis_ulkeler` | Yanlış bilinen ülkeler (tekrar çalış) |
-| `rozetler` | Rozet kazanım durumları |
-| `streak_data` | Günlük streak takibi |
-| `gunluk_quiz` | Günlük quiz durumu |
+| `explored_countries` | Country cca3 codes of explored countries |
+| `favorite_countries` | Favorited countries |
+| `quiz_scores` | Detailed history of quiz attempts |
+| `wrong_countries` | Countries you got wrong (for practice) |
+| `badges` | Badge earning status |
+| `streak_data` | Daily streak tracking |
+| `daily_quiz` | Daily quiz status |
 
 ---
 
-## 🏅 Rozet Sistemi
+## 🏅 Badge System
 
-| Rozet | Koşul |
+| Badge | Condition |
 |---|---|
-| 🌱 İlk Adım | İlk ülkeyi keşfet |
-| 🌍 Gezgin | 10 ülke keşfet |
-| 🗺️ Kaşif | 50 ülke keşfet |
-| 🌐 Dünya Vatandaşı | 100 ülke keşfet |
-| 🧠 Quiz Başlangıcı | İlk quizi tamamla |
-| 🏆 Quiz Ustası | 500 puan kazan |
-| 🔥 Ateş | 5 doğru üst üste |
-| ⚡ Durulamaz | 10 doğru üst üste |
-| 🌍 Afrika Kaşifi | Afrika'nın tüm ülkelerini keşfet |
-| 🇪🇺 Avrupa Kaşifi | Avrupa'nın tüm ülkelerini keşfet |
-| 💯 Mükemmel | Quiz'de %100 doğruluk |
-| 📅 Azimli | 7 gün üst üste quiz çöz |
+| 🌱 First Steps | Explore first country |
+| 🌍 Traveler | Explore 10 countries |
+| 🗺️ Explorer | Explore 50 countries |
+| 🌐 World Citizen | Explore 100 countries |
+| 🧠 Quiz Beginner | Complete first quiz |
+| 🏆 Quiz Master | Earn 500 points |
+| 🔥 On Fire | 5 correct answers in a row |
+| ⚡ Unstoppable | 10 correct answers in a row |
+| 🌍 Africa Explorer | Explore all countries in Africa |
+| 🇪🇺 Europe Explorer | Explore all countries in Europe |
+| 💯 Perfect | 100% accuracy in a quiz |
+| 📅 Dedicated | Solve quizzes 7 days in a row |
 
 ---
 
-## 🎨 Tasarım Sistemi
+## 🎨 Design System
 
-Okunabilirlik ve bayrak renkleri için optimize edilmiş modern koyu tema:
+Modern dark theme optimized for readability and flag colors:
 
-| Token | Değer |
+| Token | Value |
 |---|---|
 | Background | `#0D1B2A` |
 | Surface / Card | `#1B2838` / `#1E3A5F` |
@@ -196,6 +189,6 @@ Okunabilirlik ve bayrak renkleri için optimize edilmiş modern koyu tema:
 
 ---
 
-## 📄 Lisans
+## 📄 License
 
 MIT License.
