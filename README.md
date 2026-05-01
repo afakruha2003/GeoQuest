@@ -1,11 +1,11 @@
-# GeoQuest 🌍
+# GeoQuest 
 
 > **Explore the World, Test Yourself.**
 > A React Native mobile application that lets you explore world countries using the REST Countries API, learn geographic information, and test your knowledge with interactive quizzes.
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 
 <div align="center">
@@ -21,38 +21,31 @@
   &nbsp;&nbsp;
   <img src="docs/screenshots/detail1.jpeg" width="200" alt="Country Detail"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/detail2.jpeg" width="200" alt="Country Detail"/>
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/progress1.jpeg" width="200" alt="Progress"/>
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/quiz1.jpeg" width="200" alt="Quiz"/>
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/quiz3.jpeg" width="200" alt="Quiz"/>
 </div>
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🏠 Home Screen
+###  Home Screen
 - **Country of the Day:** A featured country card that rotates daily with quick facts.
 - **Daily Quiz:** 10-question daily challenge to keep your streak alive.
 - **Continent Summary:** Quick progress tracking of explored countries by continent.
 - **Latest Badges:** Your most recently earned achievements.
 
-### 🔍 Explore & Search
+###  Explore & Search
 - **Smart Search:** Real-time filtering with 300ms debounce.
 - **Filter & Sort:** Filter by continent, sort by A-Z / Population / Area.
 - **Grid / List View:** Toggle between compact grid or detailed list view.
 - **Exploration Tracking:** Green checkmark indicator on explored countries.
 
-### 🗺️ Country Details
+###  Country Details
 - General Info, Demographics, Languages & Currencies, Timezone details.
 - **Neighboring Countries:** Horizontal scrolling list of border neighbors.
 - **Mini Quiz:** 5-question quiz specific to the selected country.
 - **Google Maps:** Open country directly on the map.
 
-### 🧠 Quizzes
+###  Quizzes
 - **3 Different Modes:**
   1. **Find the Flag** — Guess the country from its flag (15s/question).
   2. **Find the Capital** — Find the capital from the country name (20s/question).
@@ -61,14 +54,14 @@
 - **Practice Mistakes:** Generate questions from countries you previously got wrong.
 - **Continent Quiz:** Questions from only the selected continent.
 
-### 📊 Progress & Badges
+###  Progress & Badges
 - Continent-based animated progress bars.
 - 12 collectable badges.
 - Profile screen with quiz history and accuracy statistics.
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 | | |
 |---|---|
@@ -83,7 +76,7 @@
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -100,7 +93,7 @@ src/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -127,7 +120,7 @@ After starting:
 
 ---
 
-## 🌐 API
+##  API
 
 Uses REST Countries API v3.1 — free, no key required.
 
@@ -140,7 +133,7 @@ Data is fetched once on app launch and cached in memory.
 
 ---
 
-## 💾 Local Storage (AsyncStorage)
+##  Local Storage (AsyncStorage)
 
 All user data is stored locally on the device:
 
@@ -156,26 +149,26 @@ All user data is stored locally on the device:
 
 ---
 
-## 🏅 Badge System
+##  Badge System
 
 | Badge | Condition |
 |---|---|
-| 🌱 First Steps | Explore first country |
-| 🌍 Traveler | Explore 10 countries |
-| 🗺️ Explorer | Explore 50 countries |
-| 🌐 World Citizen | Explore 100 countries |
-| 🧠 Quiz Beginner | Complete first quiz |
-| 🏆 Quiz Master | Earn 500 points |
-| 🔥 On Fire | 5 correct answers in a row |
-| ⚡ Unstoppable | 10 correct answers in a row |
-| 🌍 Africa Explorer | Explore all countries in Africa |
-| 🇪🇺 Europe Explorer | Explore all countries in Europe |
-| 💯 Perfect | 100% accuracy in a quiz |
-| 📅 Dedicated | Solve quizzes 7 days in a row |
+|  First Steps | Explore first country |
+|  Traveler | Explore 10 countries |
+|  Explorer | Explore 50 countries |
+|  World Citizen | Explore 100 countries |
+|  Quiz Beginner | Complete first quiz |
+|  Quiz Master | Earn 500 points |
+|  On Fire | 5 correct answers in a row |
+|  Unstoppable | 10 correct answers in a row |
+|  Africa Explorer | Explore all countries in Africa |
+| Europe Explorer | Explore all countries in Europe |
+|  Perfect | 100% accuracy in a quiz |
+|  Dedicated | Solve quizzes 7 days in a row |
 
 ---
 
-## 🎨 Design System
+##  Design System
 
 Modern dark theme optimized for readability and flag colors:
 
@@ -189,6 +182,6 @@ Modern dark theme optimized for readability and flag colors:
 
 ---
 
-## 📄 License
+##  License
 
 MIT License.
